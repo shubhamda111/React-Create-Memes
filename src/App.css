@@ -1,0 +1,73 @@
+table,.first{
+  margin-top: 7%;
+}
+th,td{
+  border: 2px solid black
+}
+.image{
+  width: 100px;
+  height: 100px;
+}
+.modalimage{
+  width: 400px;
+  height: 400px;
+}
+/* ================================================================= */
+
+.generateimage{
+  margin-top: 5%;
+  width: 350px;
+  height:350px;
+  border: 2px solid red;
+}
+.textover{
+  position: relative;
+}
+.textupper{
+  position: absolute;
+  top: 15%; 
+  left:2%;
+  text-transform: uppercase;
+  font-family: Verdana;
+  letter-spacing:1px;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bolder;
+  color: black;
+  max-width: 315px;
+  max-height: 50px;
+}
+.textlower{
+  position: absolute;
+  bottom:4%;
+  left:2%; 
+  text-transform: uppercase;
+  font-family: Verdana;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bolder;
+  color: black;
+  max-width: 50%;
+}
+.head{
+  font-family: Verdana;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px red;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+.check{
+  margin-left: 20%;
+}
+.user{
+  font-family: Verdana;
+  color:white;
+  text-shadow: 0 0 3px blue, 0 0 5px blue;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+.dash-user{
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 0 red, 0 1px red, 4px 0 red, 0 -1px red;
+}
